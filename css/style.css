@@ -1,0 +1,214 @@
+body {
+    background-image: url(../img/background.jpg);
+    background-repeat: repeat-x;
+    height: 1024px;
+}
+.wrapper {
+   background-color: white;
+    box-shadow: 0 0 12px rgba(0,0,0,0.8);
+    height: 977px;
+    width: 1000px;
+	display: block;
+	margin: auto;
+    font-family: arial;
+    border-bottom: 5px;
+    border-bottom-color: black
+}
+.header {
+    height: 176px;
+    width: 1000px;
+}
+.logo {
+    float: left;
+    width: 283px;
+    height: 164px;
+    margin-left: 28px; 
+    margin-top: 12px;
+    
+}
+.contact {
+    width: 140px;
+    height: 75px;
+    float:left;
+    text-align: left;
+    color: #128aa7;
+    font-family: tahoma, arial, sans-serif;
+    font-size: 13px; 
+    margin-top: 5px;
+    margin-left: 530px;
+    line-height: 18px;
+}
+
+.conhead {
+    font-weight: bold;
+    }
+.flags {
+    list-style: none;
+   }
+.flags li {
+    float: right;
+    margin-top: 22px;
+    margin-right: 5px;
+}
+#ind {
+    margin-right: 30px;
+}
+.flags li a {
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+    color: #128aa7;
+    font-family: tahoma;
+    font-size: 10px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    width: 55px;
+    height: 15px;
+}
+.india a {
+    background-image: url(../img/india.png);
+}
+.nepal a {
+    background-image: url(../img/nepal.png);
+}
+.tibet a {
+    background-image: url(../img/tibet.png);
+}
+.butan a {
+    background-image: url(../img/butan.png);
+}
+.shrilanka a {
+    background-image: url(../img/shrilanka.png);
+}
+.maldivy a {
+    background-image: url(../img/maldives.png);
+}
+.pic {
+    height: 237px;
+    width: 1000px;
+    margin-top: 0px;
+    margin-bottom: -3px;
+}
+
+menu {
+    font: 14px;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.menu > li {
+    float: left;
+    position: relative;
+     width: 140px;
+    height: 20px;
+   
+}
+ul.menu > li > a {
+    display: block;
+    padding: 8px;
+    color: white;
+    background-color: #303030;
+    text-decoration: none;
+    text-align: center;
+    font-family: tahoma;
+    font-size: 14px;
+    
+    
+}
+ul.menu > li > a:hover {
+    background-color:  #303030;
+}
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 120px;
+    top: 37px;
+    left: 0;
+    background-color: white;
+    margin-top: -7px;
+}
+ul.submenu > li {
+    display: block;
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: #303030;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    font-family: tahoma;
+}
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+}
+ul.menu > li:hover > ul.submenu {
+    display: block;
+     width: 140px;
+    height: 30px;
+}
+#ot {
+    width: 160px;    
+}
+.content {
+    width: 1000px; 
+    background: url(../img/fonco.jpg) repeat-y; 
+    float: left; 
+    border-bottom: 10px;
+}
+.leftColumn {
+    width: 180px;
+    float: left;
+    padding: 15px;
+    font-size: 14px;
+    font-family: tahoma;
+    line-height: 1.7;
+    color: #424c43;    
+    
+}
+.centerColumn {
+    width: 580px;
+    float: left;
+}
+.rightColumn {
+    width: 180px;
+    float: left;
+    padding: 15px;
+    font-size: 14px;
+    font-family: tahoma;
+    line-height: 1.7;
+    color: #424c43;
+}
+#info {
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+#news {
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+.footer{
+    clear: both;
+    margin-top: 15px;
+}
+.footer p {
+    color: white;
+    font-size: 12px;
+    font-family: tahoma;
+    display: block;
+    text-align: center;
+}
